@@ -8,3 +8,5 @@ addSbtPlugin("com.typesafe.sbt" % "sbt-coffeescript" % "1.0.2")
 addSbtPlugin("com.typesafe.sbt" % "sbt-less" % "1.1.2")
 
 addSbtPlugin("org.scalariform" % "sbt-scalariform" % "1.8.2")
+
+addSbtPlugin("ch.epfl.scala" % "sbt-scalafix" % "0.9.8")

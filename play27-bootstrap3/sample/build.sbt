@@ -27,3 +27,6 @@ scalariformPreferences := scalariformPreferences.value
   .setPreference(DanglingCloseParenthesis, Preserve)
 
 PlayKeys.playOmnidoc := false
+
+addCompilerPlugin(scalafixSemanticdb)
+scalacOptions ++= List("-Yrangepos", "-P:semanticdb:synthetics:on")
